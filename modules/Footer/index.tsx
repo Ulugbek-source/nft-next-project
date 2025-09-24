@@ -11,8 +11,8 @@ const Footer = () => {
 	return (
 		<footer className='bg-[#3B3B3B] py-[40px]'>
 			<div className='containers'>
-				<div className='flex justify-between pb-[30px] border-b-[1px] border-[#858584] mb-[20px]'>
-					<div className='w-[243px]'>
+				<div className='flex flex-col gap-[30px] lg:gap-0 lg:flex-row justify-between pb-[30px] border-b-[1px] border-[#858584] mb-[20px]'>
+					<div className='max-w-[243px]'>
 						<Link className='mb-[30px] inline-block' href={'/'}>
 							<CustomImage src='/logo.svg' alt='Logo' W={243} H={32} />
 						</Link>
@@ -35,7 +35,7 @@ const Footer = () => {
 							</Link>
 						</div>
 					</div>
-					<div className='w-[133px]'>
+					<div className='max-w-[133px]'>
 						<Heading classList='!mb-[25px] block'>Explore</Heading>
 						<div className='flex flex-col gap-[20px]'>
 							<Link href={'/marketplace'}>
@@ -49,11 +49,11 @@ const Footer = () => {
 							</Link>
 						</div>
 					</div>
-					<div className='w-[420px]'>
+					<div className='w-full sm:w-[420px]'>
 						<Heading classList='mb-[25px] block'>
 							Join our weekly digest
 						</Heading>
-						<div className='w-[330px] mb-[20px]'>
+						<div className='max-w-[330px] mb-[20px]'>
 							<Text>
 								Get exclusive promotions & updates straight to your inbox.
 							</Text>

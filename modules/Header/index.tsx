@@ -1,36 +1,47 @@
-import { SignUpIcon } from '@/assets/icons'
+import { MenuIcon, SignUpIcon } from '@/assets/icons'
 import { Button, CustomImage } from '@/components'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 const Header = () => {
+	const t = useTranslations('headerContent')
 	return (
-		<header className='px-[20px] py-[20px] flex justify-between items-center'>
+		<header className='px-[30px] lg:px-[50px] py-[15px] lg:py-[20px] flex justify-between items-center'>
 			<Link href={'/'}>
-				<CustomImage src='/logo.svg' alt='Logo' W={243} H={32} />
+				<CustomImage
+					classList='!w-[182px] !h-[24px] lg:!w-[243px] lg:!h-[32px]'
+					src='/logo.svg'
+					alt='Logo'
+					W={243}
+					H={32}
+				/>
 			</Link>
-			<div className='flex items-center gap-[30px]'>
+			<div className='hidden lg:flex items-center gap-[30px]'>
 				<Link
 					className='font-semibold hover:text-[#A259FF] duration-500 text-[16px] text-white'
 					href={'/marketplace'}
 				>
-					Marketplace
+					{t('marketplace')}
 				</Link>
 				<Link
 					className='font-semibold hover:text-[#A259FF] duration-500 text-[16px] text-white'
 					href={'/rankings'}
 				>
-					Rankings
+					{t('rankings')}
 				</Link>
 				<Link
 					className='font-semibold hover:text-[#A259FF] duration-500  text-[16px] text-white'
 					href={'/connect-wallet'}
 				>
-					Connect a wallet
+					{t('connectWallet')}
 				</Link>
 				<Button icon={<SignUpIcon />} iconPosition='left'>
-					Sign up
+					{t('signUp')}
 				</Button>
 			</div>
+			<button className='cursor-pointer lg:hidden'>
+				<MenuIcon />
+			</button>
 		</header>
 	)
 }

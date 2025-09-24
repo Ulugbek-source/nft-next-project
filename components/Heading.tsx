@@ -8,7 +8,7 @@ interface HeadingType {
 const Heading: FC<HeadingType> = ({ tag, children, classList }) => {
 	if (tag == 'h1') {
 		return (
-			<h1 className={`${classList} text-white text-[67px] font-semibold `}>
+			<h1 className={`${classList} text-white sm:!text-[67px] font-semibold `}>
 				{children}
 			</h1>
 		)
