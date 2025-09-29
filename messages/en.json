@@ -13,5 +13,27 @@
 		"auctions": "Auctions",
 		"artists": "Artists",
 		"imageTitle": "Space Walking"
+	},
+	"collectionContent": {
+		"title": "Trending Collection",
+		"description": "Checkout our weekly updated trending collection."
+	},
+	"creatorContent": {
+		"title": "Top creators",
+		"description": "Checkout Top Rated Creators on the NFT Marketplace",
+		"buttonText": "View Rankings"
+	},
+	"footerContent": {
+		"text1": "NFT marketplace UI created with Anima for Figma.",
+		"text2": "Join our community",
+		"text3": "Explore",
+		"text4": "Marketplace",
+		"text5": "Rankings",
+		"text6": "Connect a wallet",
+		"text7": "Join our weekly digest",
+		"text8": "Get exclusive promotions & updates straight to your inbox.",
+		"text9": "Enter your email here",
+		"text10": "Subscribe",
+		"text11": "Ⓒ NFT Market. Use this template freely."
 	}
 }

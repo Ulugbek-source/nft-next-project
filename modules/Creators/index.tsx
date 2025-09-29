@@ -3,6 +3,7 @@ import CreatorContent from './CreatorContent'
 
 const Creator = async () => {
 	const creators = await getRequest('/user')
+
 	return <CreatorContent creators={creators.data} />
 }
 

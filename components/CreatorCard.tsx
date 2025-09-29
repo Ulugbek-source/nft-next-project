@@ -13,7 +13,7 @@ const CreatorCard: FC<{ item: CreatorType; index: number }> = ({
 		<div className='w-[240px] relative bg-[#3b3b3b] text-center rounded-[20px] p-[20px]'>
 			<CustomImage
 				classList='!mb-[20px] !mx-auto'
-				src={`${API}/file${item.image}`}
+				src={`${API}/file/${item.image}`}
 				alt='Creator image'
 				W={120}
 				H={120}

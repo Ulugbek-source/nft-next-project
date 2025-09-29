@@ -1,23 +1,23 @@
 import { CreatorType } from '@/@types/CreatorType'
 import { RocketIcon } from '@/assets/icons'
 import { Button, CreatorCard, Heading, Text } from '@/components'
+import { useTranslations } from 'next-intl'
 import { FC } from 'react'
 
 const CreatorContent: FC<{ creators: CreatorType[] }> = ({ creators }) => {
+	const t = useTranslations('creatorContent')
 	return (
 		<section className='py-[80px]'>
 			<div className='containers'>
 				<div className='flex items-center justify-between mb-[60px]'>
 					<div>
 						<Heading classList='!mb-[10px]' tag='h2'>
-							Top creators
+							{t('title')}
 						</Heading>
-						<Text classList='!text-[22px]'>
-							Checkout Top Rated Creators on the NFT Marketplace
-						</Text>
+						<Text classList='!text-[22px]'>{t('description')}</Text>
 					</div>
 					<Button icon={<RocketIcon />} iconPosition='left'>
-						View Rankings
+						{t('buttonText')}
 					</Button>
 				</div>
 				<div className='flex items-center justify-between'>

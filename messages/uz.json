@@ -13,5 +13,27 @@
 		"auctions": "Jami savdo",
 		"artists": "Rassomlar",
 		"imageTitle": "Kosmosdagi sayohat"
+	},
+	"collectionContent": {
+		"title": "Ommabop to'plam",
+		"description": "Haftalik yangilanadigan trend to'plamimizni tekshiring."
+	},
+	"creatorContent": {
+		"title": "Eng yaxshi ijodkorlar",
+		"description": "NFT bozoridagi eng yuqori baholangan ijodkorlarni tekshiring",
+		"buttonText": "Reytinglarni ko'rish"
+	},
+	"footerContent": {
+		"text1": "Figma uchun Anima bilan yaratilgan NFT bozor interfeysi.",
+		"text2": "Bizning hamjamiyatimizga qo'shiling",
+		"text3": "Tadqiq qiling",
+		"text4": "Marketplays",
+		"text5": "Reytinglar",
+		"text6": "Hamyonni ulang",
+		"text7": "Haftalik dayjestimizga qo'shiling",
+		"text8": "Eksklyuziv aktsiyalar va yangilanishlarni to'g'ridan-to'g'ri pochta qutingizga oling.",
+		"text9": "Bu yerga elektron pochtangizni kiriting",
+		"text10": "Obuna boʻling",
+		"text11": "Ⓒ NFT bozori. Ushbu shablondan erkin foydalaning."
 	}
 }

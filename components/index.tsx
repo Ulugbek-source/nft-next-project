@@ -5,6 +5,7 @@ import Heading from './Heading'
 import Input from './Input'
 import CollectionCard from './CollectionCard'
 import CreatorCard from './CreatorCard'
+import LangConfig from './LangConfig'
 export {
 	CustomImage,
 	Button,
@@ -13,4 +14,5 @@ export {
 	Input,
 	CollectionCard,
 	CreatorCard,
+	LangConfig,
 }
